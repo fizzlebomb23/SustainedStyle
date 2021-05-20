@@ -1,8 +1,2 @@
-# Scrolla
-
-Sample Xcode project demonstrating how to use scroll view in Interface Builder / Storyboard
-
-
-
-![demo](demo.png)
+an attempt at making an app for an organization that creates infographics that rate how sustainable different clothing brands are. it currently doesn't work properly, although i thought i coded everything right. 
 

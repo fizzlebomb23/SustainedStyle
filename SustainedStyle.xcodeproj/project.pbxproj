@@ -24,7 +24,7 @@
 		6E19F52F2655DDCD00B56B3C /* OurFavsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurFavsViewController.swift; sourceTree = "<group>"; };
 		6E19F5312655DE0E00B56B3C /* InfographicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfographicsViewController.swift; sourceTree = "<group>"; };
 		6E19F5332656025400B56B3C /* RequestFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFormViewController.swift; sourceTree = "<group>"; };
-		71C589CB238BDCED00F6B7D8 /* scrolla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrolla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C589CB238BDCED00F6B7D8 /* Sustained Style.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sustained Style.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C589CE238BDCED00F6B7D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71C589D0238BDCED00F6B7D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		71C589D2238BDCED00F6B7D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E7741362656B8B800A79107 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71C589D2238BDCED00F6B7D8 /* ViewController.swift */,
+				6E19F52F2655DDCD00B56B3C /* OurFavsViewController.swift */,
+				6E19F5312655DE0E00B56B3C /* InfographicsViewController.swift */,
+				6E19F5332656025400B56B3C /* RequestFormViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
 		71C589C2238BDCED00F6B7D8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +67,7 @@
 		71C589CC238BDCED00F6B7D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71C589CB238BDCED00F6B7D8 /* scrolla.app */,
+				71C589CB238BDCED00F6B7D8 /* Sustained Style.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,11 +77,8 @@
 			children = (
 				71C589CE238BDCED00F6B7D8 /* AppDelegate.swift */,
 				71C589D0238BDCED00F6B7D8 /* SceneDelegate.swift */,
-				71C589D2238BDCED00F6B7D8 /* ViewController.swift */,
-				6E19F52F2655DDCD00B56B3C /* OurFavsViewController.swift */,
-				6E19F5312655DE0E00B56B3C /* InfographicsViewController.swift */,
+				6E7741362656B8B800A79107 /* View Controller */,
 				71C589D4238BDCED00F6B7D8 /* Main.storyboard */,
-				6E19F5332656025400B56B3C /* RequestFormViewController.swift */,
 				71C589D7238BDCEF00F6B7D8 /* Assets.xcassets */,
 				71C589D9238BDCEF00F6B7D8 /* LaunchScreen.storyboard */,
 				71C589DC238BDCEF00F6B7D8 /* Info.plist */,
@@ -82,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71C589CA238BDCED00F6B7D8 /* scrolla */ = {
+		71C589CA238BDCED00F6B7D8 /* Sustained Style */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71C589DF238BDCEF00F6B7D8 /* Build configuration list for PBXNativeTarget "scrolla" */;
+			buildConfigurationList = 71C589DF238BDCEF00F6B7D8 /* Build configuration list for PBXNativeTarget "Sustained Style" */;
 			buildPhases = (
 				71C589C7238BDCED00F6B7D8 /* Sources */,
 				71C589C8238BDCED00F6B7D8 /* Frameworks */,
@@ -94,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = scrolla;
+			name = "Sustained Style";
 			productName = scrolla;
-			productReference = 71C589CB238BDCED00F6B7D8 /* scrolla.app */;
+			productReference = 71C589CB238BDCED00F6B7D8 /* Sustained Style.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 71C589C6238BDCED00F6B7D8 /* Build configuration list for PBXProject "scrolla" */;
+			buildConfigurationList = 71C589C6238BDCED00F6B7D8 /* Build configuration list for PBXProject "SustainedStyle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				71C589CA238BDCED00F6B7D8 /* scrolla */,
+				71C589CA238BDCED00F6B7D8 /* Sustained Style */,
 			);
 		};
 /* End PBXProject section */
@@ -232,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -286,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		71C589C6238BDCED00F6B7D8 /* Build configuration list for PBXProject "scrolla" */ = {
+		71C589C6238BDCED00F6B7D8 /* Build configuration list for PBXProject "SustainedStyle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71C589DD238BDCEF00F6B7D8 /* Debug */,
@@ -346,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71C589DF238BDCEF00F6B7D8 /* Build configuration list for PBXNativeTarget "scrolla" */ = {
+		71C589DF238BDCEF00F6B7D8 /* Build configuration list for PBXNativeTarget "Sustained Style" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71C589E0238BDCEF00F6B7D8 /* Debug */,
